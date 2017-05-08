@@ -12,6 +12,9 @@
 		B235727E1E9D269B00CD4BBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B235727C1E9D269B00CD4BBA /* Main.storyboard */; };
 		B23572801E9D269B00CD4BBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B235727F1E9D269B00CD4BBA /* Assets.xcassets */; };
 		B23572831E9D269B00CD4BBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B23572811E9D269B00CD4BBA /* LaunchScreen.storyboard */; };
+		B235728B1E9D61E900CD4BBA /* chime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B235728A1E9D61E900CD4BBA /* chime.mp3 */; };
+		B235728D1E9D718900CD4BBA /* tone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B235728C1E9D718900CD4BBA /* tone.mp3 */; };
+		B2A9A9871EBE50D60086CBCA /* instruction_track.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B2A9A9861EBE50D60086CBCA /* instruction_track.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		B235727F1E9D269B00CD4BBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B23572821E9D269B00CD4BBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B23572841E9D269B00CD4BBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B235728A1E9D61E900CD4BBA /* chime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chime.mp3; sourceTree = "<group>"; };
+		B235728C1E9D718900CD4BBA /* tone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tone.mp3; sourceTree = "<group>"; };
+		B2A9A9861EBE50D60086CBCA /* instruction_track.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = instruction_track.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 				B235727A1E9D269B00CD4BBA /* ViewController.swift */,
 				B235727C1E9D269B00CD4BBA /* Main.storyboard */,
 				B235727F1E9D269B00CD4BBA /* Assets.xcassets */,
+				B2A9A9861EBE50D60086CBCA /* instruction_track.m4a */,
+				B235728A1E9D61E900CD4BBA /* chime.mp3 */,
+				B235728C1E9D718900CD4BBA /* tone.mp3 */,
 				B23572811E9D269B00CD4BBA /* LaunchScreen.storyboard */,
 				B23572841E9D269B00CD4BBA /* Info.plist */,
 			);
@@ -96,6 +105,7 @@
 				TargetAttributes = {
 					B23572741E9D269B00CD4BBA = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 272C5Y8RP6;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,7 +133,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B235728B1E9D61E900CD4BBA /* chime.mp3 in Resources */,
+				B235728D1E9D718900CD4BBA /* tone.mp3 in Resources */,
 				B23572831E9D269B00CD4BBA /* LaunchScreen.storyboard in Resources */,
+				B2A9A9871EBE50D60086CBCA /* instruction_track.m4a in Resources */,
 				B23572801E9D269B00CD4BBA /* Assets.xcassets in Resources */,
 				B235727E1E9D269B00CD4BBA /* Main.storyboard in Resources */,
 			);
@@ -260,6 +273,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 272C5Y8RP6;
 				INFOPLIST_FILE = BalanceApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alisonlui.BalanceApp;
@@ -272,6 +286,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 272C5Y8RP6;
 				INFOPLIST_FILE = BalanceApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alisonlui.BalanceApp;
@@ -299,6 +314,7 @@
 				B23572891E9D269B00CD4BBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
